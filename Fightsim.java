@@ -2,7 +2,7 @@ package Stuff;
 
 import java.util.concurrent.ThreadLocalRandom;
 
-/**
+/** Calculates Damage done in one Round for Pathfinder
  * Created by Alex on 02.05.2017.
  */
 public class Fightsim {
