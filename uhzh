@@ -1,0 +1,21 @@
+
+import glob,os
+def aufgabe2():
+  eingabe = input("Eingabe:")
+  liste = eingabe.split(" ")
+  position = 1
+  counter =-1
+  for i in liste:
+    print(position,liste[counter])
+    position =position+1
+    counter = counter -1
+    
+
+def aufgabe3():
+  listee =os.listdir("/")
+  print(listee)
+  for xi in listee:
+    lister =filter(lambda x :len(xi)<3,listee)
+    listere = filter(lambda x : len(xi)>7,lister)
+  print (listere)
+aufgabe3()
